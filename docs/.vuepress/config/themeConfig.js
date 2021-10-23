@@ -6,8 +6,8 @@ const htmlModules = require('./htmlModules.js');
 module.exports = {
   nav,
   sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-  logo: 'https://7.dusays.com/2021/03/10/017cefa9fee43.png', // 导航栏logo
-  repo: '', // 导航栏右侧生成Github链接
+  logo: '/img/Strawberry.png', // 导航栏logo
+  repo: 'FLDPMpang/FLDPMpangblog', // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   docsDir: 'docs', // 编辑的文件夹
@@ -52,7 +52,7 @@ module.exports = {
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: 'https://github.com/FLDPMpang/my_image_host/blob/main/3a62d795478ff.7c1j82l0ei80.jpg',
+    avatar: '/img/icon.jpg',
     name: 'FLDPMpang',
     slogan: '都不知道该干什么',
   },
@@ -86,7 +86,7 @@ module.exports = {
     // 页脚信息
     createYear: 2020, // 博客创建年份
     copyrightInfo:
-      '@2021FLDPMpang | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a><br></br> <a href="https://beian.miit.gov.cn" target="_blank">鲁ICP备2021038338号-1</a>', // 博客版权信息，支持a标签
+      '@2021FLDPMpang | <br> </br> 本网站由<a href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referra"><img src="/img/upylogo.png"align="absmiddle" width="59px" height="30px" /></a><span>提供加速服务</span> <br></br> <a href="https://beian.miit.gov.cn" target="_blank">鲁ICP备2021038338号-1</a>', // 博客版权信息，支持a标签
   },
   htmlModules // 插入hmtl(广告)模块
 }

@@ -19,6 +19,14 @@ module.exports = [
       showInMobile: false, // whether to display on the mobile side, default: false.
     },
   ],
+    '@vssue/vuepress-plugin-vssue': {
+      platform: 'github',
+
+      owner: 'FLDPMpang',
+      repo: 'FLDPMpangblog',
+      clientId: 'a233dc97bd36a943ce2f',
+      clientSecret: '15502732c536e5d629d72c111e78fe522e2a1546',
+    },
   [
     'vuepress-plugin-zooming', // 放大图片
     {
