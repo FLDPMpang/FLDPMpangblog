@@ -8,7 +8,6 @@ module.exports = [
 
   // 'vuepress-plugin-baidu-autopush', // 百度自动推送
 
-  // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
   [
     'one-click-copy',
     {
@@ -20,14 +19,18 @@ module.exports = [
     },
   ],
   [
-    '@vssue/vuepress-plugin-vssue', 
-    {
-      platform: 'github',
-      owner: 'FLDPMpang',
-      repo: 'FLDPMpangblog',
-      clientId: 'a233dc97bd36a943ce2f',
-      clientSecret: '15502732c536e5d629d72c111e78fe522e2a1546',
-    },
+      'vuepress-plugin-comment',
+      {
+        choosen: 'gitalk', 
+        options: {
+        clientID: 'a233dc97bd36a943ce2f',
+        clientSecret: '15502732c536e5d629d72c111e78fe522e2a1546',
+        owner: 'FLDPMpang',
+        repo: 'FLDPMpangblog',
+          admin: ['FLDPMpang'],
+          distractionFreeMode: false 
+        }
+      }
   ],
   [
     'vuepress-plugin-zooming', // 放大图片
