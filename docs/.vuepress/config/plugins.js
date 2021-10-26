@@ -33,18 +33,27 @@ module.exports = [
       }
   ],
   [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'G-RNMS7M4PZG' // UA-00000000-0
+      }
+  ],
+  [
+      'vuepress-plugin-mathjax',
+      {
+        target: 'svg',
+        macros: {
+          '*': '\\times',
+        },
+      },
+  ],
+  [
     'vuepress-plugin-zooming', // 放大图片
     {
       selector: '.theme-vdoing-content img:not(.no-zoom)', // 排除class是no-zoom的图片
       options: {
         bgColor: 'rgba(0,0,0,0.6)',
       },
-    },
-  ],
-  [
-    'vuepress-plugin-baidu-tongji', // 百度统计
-    {
-      hm: '503f098e7e5b3a5b5d8c5fc2938af002',
     },
   ],
   [
