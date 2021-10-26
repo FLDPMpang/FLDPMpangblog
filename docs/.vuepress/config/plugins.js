@@ -23,14 +23,19 @@ module.exports = [
       {
         choosen: 'gitalk', 
         options: {
-        clientID: 'a233dc97bd36a943ce2f',
-        clientSecret: '15502732c536e5d629d72c111e78fe522e2a1546',
-        owner: 'FLDPMpang',
-        repo: 'FLDPMpangblog',
-          admin: ['FLDPMpang'],
-          distractionFreeMode: false 
+            clientID: 'a233dc97bd36a943ce2f',
+            clientSecret: '15502732c536e5d629d72c111e78fe522e2a1546',
+            owner: 'FLDPMpang',
+            repo: 'FLDPMpangblog',
+            admin: ['FLDPMpang'],
+            distractionFreeMode: false 
         }
       }
+  ],
+  [ 'sitemap', 
+    {
+      hostname: 'https://fldpmpang.com'
+    },
   ],
   [
       '@vuepress/google-analytics',
