@@ -86,7 +86,7 @@ module.exports = {
     // 页脚信息
     createYear: 2020, // 博客创建年份
     copyrightInfo:
-        '@2021FLDPMpang <br></br> 本网站由<a href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referra"><img src="/img/upylogo.png"align="absmiddle" width="59px" height="30px" /></a><span>提供加速服务</span> <a href="https://beian.miit.gov.cn" target="_blank">鲁ICP备2021038338号-1</a>', // 博客版权信息，支持a标签
+        '@2021FLDPMpang <br></br> 本网站由<a href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referra"><img src="/img/upylogo.png"align="absmiddle" width="59px" height="30px" /></a><span>提供加速服务</span> ',
   },
   htmlModules // 插入hmtl(广告)模块
 }
